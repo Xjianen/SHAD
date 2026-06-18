@@ -4,10 +4,37 @@
 
 
 部分部件异常查询图像、mask、正常图像如下：
-![床-缺失异常](asset/render_11273_3.4_10_32_Missing_anomaly.png)
-![包-缺失异常](asset/render_8932_3.2_257_25_Missing_anomaly.png)
-![包-异常标注](asset/render_8932_3.2_257_25_Missing_mask.png)
-![包-正常渲染](asset/render_8932_3.2_257_25_Missing_normal.png)
+部分部件异常查询图像、mask、正常图像如下：
+
+<table width="100%">
+  <!-- 第一行：床 单张异常图 -->
+  <tr>
+    <td align="center">
+      <img src="asset/render_11273_3.4_10_32_Missing_anomaly.png" width="320">
+      <br>
+      <b>床 - 缺失异常图</b>
+    </td>
+  </tr>
+
+  <!-- 第二行：包 完整三件套（异常图 + mask + 正常图横向并排） -->
+  <tr>
+    <td align="center">
+      <img src="asset/render_8932_3.2_257_25_Missing_anomaly.png" width="300">
+      <br>
+      <b>包 - 缺失异常图</b>
+    </td>
+    <td align="center">
+      <img src="asset/render_8932_3.2_257_25_Missing_mask.png" width="300">
+      <br>
+      <b>包 - 异常Mask标注</b>
+    </td>
+    <td align="center">
+      <img src="asset/render_8932_3.2_257_25_Missing_normal.png" width="300">
+      <br>
+      <b>包 - 正常参考图</b>
+    </td>
+  </tr>
+</table>
 
 破损异常运行指令：
 
