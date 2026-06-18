@@ -2,6 +2,13 @@
 首先你需要安装blender：
 
 
+
+部分部件异常查询图像、mask、正常图像如下：
+![床-缺失异常](asset/render_11273_3.4_10_32_Missing_anomaly.png)
+![包-缺失异常](asset/render_8932_3.2_257_25_Missing_anomaly.png)
+![包-异常标注](asset/render_8932_3.2_257_25_Missing_mask.png)
+![包-正常渲染](asset/render_8932_3.2_257_25_Missing_normal.png)
+
 破损异常运行指令：
 
 ```
@@ -10,7 +17,7 @@ blender --background --python render/render_broken.py -- --category Mug --num_vi
 
 缺失异常运行指令：
 ```
-
+blender --background --python render/render_missing.py -- --category Mug --num_views 10 --top_k 3 --samples 64 --seed 42
 ```
 
 凸起异常运行指令：
